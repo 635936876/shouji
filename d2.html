@@ -1,0 +1,249 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>无标题文档</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <style>
+        li {
+        list-style: none;
+    }
+    
+    header {
+        width: 100%;
+        height: 55px;
+        background: #FFFFFF;
+        position: fixed;
+    }
+    
+    header center {
+        width: 96%;
+        margin: 0 auto;
+        padding-top: 14px;
+        text-align: center;
+        color: #3C4141;
+        font-size: 1.8em;
+    }
+    
+    header center span {
+        display: inline-block;
+        margin-top: 6px;
+    }
+    
+    header center img {
+        height: 30px
+    }
+    
+    section {
+        width: 100%;
+        height: 624px;
+        background: #EFEFF4;
+        border-bottom: 1px solid #E7E7EB;
+        padding-top: 60px;
+    }
+    
+    section article {
+        width: 100%;
+        height: 90px;
+        background: #fff;
+        margin-top: 20px;
+        border-bottom: 2px solid #E9E9ED;
+        border-top: 2px solid #E9E9ED;
+    }
+    
+    section article dt {
+        padding: 7px;
+        padding-left: 12px;
+    }
+    
+    section article dt img {
+        height: 76px;
+    }
+    
+    section article dd {
+        float: left;
+        line-height: 18px;
+        height: 18px;
+        font-size: 1.1em;
+        padding-top: 10px;
+        color: #000000;
+    }
+    
+    section article dd.title {
+        color: #040404;
+        font-size: 1.5em;
+        font-weight: bold;
+        padding-top: 7px;
+        padding-top: 20px;
+    }
+    
+    section article dd img {
+        height: 20px;
+    }
+    
+    section article dd.img {
+        float: right;
+        margin-top: -15px;
+    }
+    
+    section article li {
+        float: left;
+    }
+    
+    section article li img {
+        height: 80px;
+        padding-left: 60px;
+    }
+    
+    section aside {
+        width: 100%;
+        height: 55px;
+        background: #fff;
+        margin-top: 25px;
+        border-bottom: 2px solid #E9E9ED;
+        border-top: 2px solid #E9E9ED;
+    }
+    
+    section aside dt {
+        margin: 6px;
+        margin-left: 20px;
+    }
+    
+    section aside dt img {
+        height: 32px;
+    }
+    
+    section aside dd {
+        float: left;
+        line-height: 18px;
+        height: 18px;
+        font-size: 1.5em;
+        padding-top: 16px;
+        color: #212121;
+        padding-left: 8px;
+        letter-spacing: 2px;
+    }
+    
+    section aside dd img {
+        height: 20px;
+    }
+    
+    section aside dd.img {
+        float: right;
+    }
+    
+    footer ul {
+        height: 50px;
+        background: #FFFFFF;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        border-top: 1px solid #EBEBED;
+    }
+    
+    footer ul li {
+        width: 24%;
+        line-height: 40px;
+        text-align: center;
+        float: left;
+    }
+    
+    footer ul li img {
+        height: 50px;
+        padding-top: 1px;
+        padding-left: 13px;
+    }
+    
+    @media(max-width:380px) {
+        section article li img {
+            height: 80px;
+            padding-left: 50px;
+        }
+        section {
+            width: 100%;
+            height: 560px;
+        }
+    }
+    
+    @media(max-width:330px) {
+        section article li img {
+            height: 80px;
+            padding-left: 40px;
+        }
+        section {
+            width: 100%;
+            height: 460px;
+        }
+    }
+    
+    @media(min-width:760px) {
+        section article li img {
+            height: 80px;
+            padding-left: 140px;
+        }
+        section {
+            width: 100%;
+            height: 940px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <center>
+            <span>发现</span>
+        </center>
+    </header>
+    <section>
+        <aside style="height:155px">
+            <dl class="a1">
+                <dt class="al fl"><img src="images/f1.jpg" /></dt>
+                <dd>消息中心</dd>
+                <dd class="img" style="padding-right:20px;"><img src="images/a3.jpg" /></dd>
+            </dl>
+            <div class="clear"></div>
+            <hr style=" border:1px solid #F1F1F1; margin:0"></hr>
+
+            <dl class="a1">
+                <dt class="al fl"><img src="images/f2.jpg" /></dt>
+                <dd>待办事项</dd>
+                <dd class="img" style="padding-right:20px;"><img src="images/a3.jpg" /></dd>
+            </dl>
+            <div class="clear"></div>
+            <hr style=" border:1px solid #F1F1F1; margin:0"></hr>
+            <dl class="a1">
+                <dt class="al fl"><img src="images/f3.jpg" /></dt>
+                <dd>评论</dd>
+                <dd class="img" style="padding-right:20px;"><img src="images/a3.jpg" /></dd>
+            </dl>
+            <div class="clear"></div>
+        </aside>
+        <aside>
+            <dl class="a1">
+                <dt class="al fl"><img src="images/f4.jpg" /></dt>
+                <dd>扫一扫</dd>
+                <dd class="img" style="padding-right:20px;"><img src="images/a3.jpg" /></dd>
+            </dl>
+        </aside>
+    </section>
+    <footer>
+        <ul>
+            <li>
+                <a href=""><img src="images/c1.jpg" /></a>
+            </li>
+            <li>
+                <a href=""><img src="images/c2.jpg" /></a>
+            </li>
+            <li>
+                <a href=""><img src="images/c5.jpg" /></a>
+            </li>
+            <li>
+                <a href=""><img src="images/c6.jpg" /></a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>

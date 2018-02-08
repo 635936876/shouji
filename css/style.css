@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+body{background:#F4F4F4;}
+section{width:90%; height:568px; margin:0 auto;}
+section header{font-size:3em; text-align:center;  padding-top:120px;}
+section header .mkr{font-size:0.5em; height:80px; line-height:60px; font-weight:bold;}
+section article .login{font-size:1.8em; border:1px double #CECECE; background:#fff; border-radius:8px;}
+section article .login input{font-size:0.6em; height:2em; border:none; color:#C2C2C2;}
+section article .login li{padding:10px;}
+section article .login li.user{border-bottom:1px solid #cecece;}
+section article .btn input{width:100%; font-size:1.8em; border:none; margin-top:40px; line-height:2.4em; background:#F07A23; border-radius:8px; color:#f8e5dd;}
+
+
+
+
